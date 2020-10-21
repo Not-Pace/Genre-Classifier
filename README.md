@@ -10,5 +10,9 @@ For this project, we used the [GTZAN Music Genre Dataset](https://www.kaggle.com
 
 ## Contents
 
-`./data` is the dataset.
-`./models` has all the notebooks used for the different approaches used.
+- `./data` is the dataset. 
+- `./models` has all the notebooks used for the different approaches used.
+
+## Findings
+
+In our first attempt, we made a simple CNN on top of the VGG16 model using Transfer Learning, only to have it give us rather erratic results, either as a result of VGG16 not playing well with the data (it's technically meant for feature extraction from normal images, not graphs), or to do with the data itself.
